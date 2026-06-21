@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<routes>
+  <vType id="Trailer" vClass="trailer" maxSpeed="13.89" guiShape="truck/trailer" emissionClass="HBEFA3/HDV_D_EU4" />
+  <vType id="Truck" vClass="truck" maxSpeed="13.89" guiShape="truck" emissionClass="HBEFA3/HDV_D_EU4" />
+  <vType id="Bus" vClass="bus" maxSpeed="13.89" guiShape="bus" emissionClass="HBEFA3/Bus" />
+  <vType id="Car" vClass="passenger" maxSpeed="13.89" guiShape="passenger" emissionClass="HBEFA3/PC_G_EU4" />
+  <vType id="SMV" vClass="motorcycle" maxSpeed="5.56" guiShape="motorcycle" emissionClass="HBEFA3/PC_G_EU4" />
+  <flow id="Trailer_N1_BT_0" type="Trailer" begin="0.00" end="3600.00" perHour="7.00" from="802491129#1" to="E19" color="255,0,0" />
+  <flow id="Trailer_N1_BT_1" type="Trailer" begin="0.00" end="3600.00" perHour="7.00" from="409623411" to="E19" color="255,0,0" />
+  <flow id="Trailer_N1_BT_2" type="Trailer" begin="0.00" end="3600.00" perHour="55.99" from="653007179#0" to="E19" color="255,0,0" />
+  <flow id="Trailer_N1_Port_0" type="Trailer" begin="0.00" end="3600.00" perHour="4.60" from="802491129#1" to="133487534" color="0,100,255">
+    <stop busStop="S" duration="1.2" />
+  </flow>
+  <flow id="Trailer_N1_Port_1" type="Trailer" begin="0.00" end="3600.00" perHour="4.60" from="409623411" to="133487534" color="0,100,255">
+    <stop busStop="S" duration="1.2" />
+  </flow>
+  <flow id="Trailer_N1_Port_2" type="Trailer" begin="0.00" end="3600.00" perHour="36.79" from="653007179#0" to="133487534" color="0,100,255">
+    <stop busStop="S" duration="1.2" />
+  </flow>
+  <flow id="Trailer_N1_South_0" type="Trailer" begin="0.00" end="3600.00" perHour="6.00" from="802491129#1" to="955410878.656.46" color="0,200,0" />
+  <flow id="Trailer_N1_South_1" type="Trailer" begin="0.00" end="3600.00" perHour="6.00" from="409623411" to="955410878.656.46" color="0,200,0" />
+  <flow id="Trailer_N1_South_2" type="Trailer" begin="0.00" end="3600.00" perHour="48.00" from="653007179#0" to="955410878.656.46" color="0,200,0" />
+  <flow id="Trailer_BT_N1_0" type="Trailer" begin="0.00" end="3600.00" perHour="7.00" from="-E19" to="955410838#0" color="255,255,0" />
+  <flow id="Trailer_BT_N1_1" type="Trailer" begin="0.00" end="3600.00" perHour="7.00" from="-E19" to="434733273" color="255,255,0" />
+  <flow id="Trailer_BT_N1_2" type="Trailer" begin="0.00" end="3600.00" perHour="55.99" from="-E19" to="653007172#3.272.179.161" color="255,255,0" />
+  <flow id="Trailer_BT_Port_0" type="Trailer" begin="0.00" end="3600.00" perHour="21.00" from="-E19" to="133487534" color="0,100,255">
+    <stop busStop="S" duration="1.2" />
+  </flow>
+  <flow id="Trailer_Port_N1_0" type="Trailer" begin="0.00" end="3600.00" perHour="4.60" from="-133487534" to="955410838#0" color="255,255,0">
+    <stop busStop="N" duration="1.2" />
+  </flow>
+  <flow id="Trailer_Port_N1_1" type="Trailer" begin="0.00" end="3600.00" perHour="4.60" from="-133487534" to="434733273" color="255,255,0">
+    <stop busStop="N" duration="1.2" />
+  </flow>
+  <flow id="Trailer_Port_N1_2" type="Trailer" begin="0.00" end="3600.00" perHour="36.79" from="-133487534" to="653007172#3.272.179.161" color="255,255,0">
+    <stop busStop="N" duration="1.2" />
+  </flow>
+  <flow id="Trailer_Port_BT_0" type="Trailer" begin="0.00" end="3600.00" perHour="21.00" from="-133487534" to="E19" color="255,0,0">
+    <stop busStop="N" duration="1.2" />
+  </flow>
+  <flow id="Trailer_Port_South_0" type="Trailer" begin="0.00" end="3600.00" perHour="33.00" from="-133487534" to="955410878.656.46" color="0,200,0">
+    <stop busStop="N" duration="1.2" />
+  </flow>
+  <flow id="Truck_N1_BT_0" type="Truck" begin="0.00" end="3600.00" perHour="48.80" from="802491129#1" to="E19" color="255,0,0" />
+  <flow id="Truck_N1_BT_1" type="Truck" begin="0.00" end="3600.00" perHour="48.80" from="409623411" to="E19" color="255,0,0" />
+  <flow id="Truck_N1_BT_2" type="Truck" begin="0.00" end="3600.00" perHour="390.41" from="653007179#0" to="E19" color="255,0,0" />
+  <flow id="Truck_N1_Port_0" type="Truck" begin="0.00" end="3600.00" perHour="31.90" from="802491129#1" to="133487534" color="0,100,255">
+    <stop busStop="S" duration="1.2" />
+  </flow>
+  <flow id="Truck_N1_Port_1" type="Truck" begin="0.00" end="3600.00" perHour="31.90" from="409623411" to="133487534" color="0,100,255">
+    <stop busStop="S" duration="1.2" />
+  </flow>
+  <flow id="Truck_N1_Port_2" type="Truck" begin="0.00" end="3600.00" perHour="255.19" from="653007179#0" to="133487534" color="0,100,255">
+    <stop busStop="S" duration="1.2" />
+  </flow>
+  <flow id="Truck_N1_South_0" type="Truck" begin="0.00" end="3600.00" perHour="41.70" from="802491129#1" to="955410878.656.46" color="0,200,0" />
+  <flow id="Truck_N1_South_1" type="Truck" begin="0.00" end="3600.00" perHour="41.70" from="409623411" to="955410878.656.46" color="0,200,0" />
+  <flow id="Truck_N1_South_2" type="Truck" begin="0.00" end="3600.00" perHour="333.60" from="653007179#0" to="955410878.656.46" color="0,200,0" />
+  <flow id="Truck_BT_N1_0" type="Truck" begin="0.00" end="3600.00" perHour="48.80" from="-E19" to="955410838#0" color="255,255,0" />
+  <flow id="Truck_BT_N1_1" type="Truck" begin="0.00" end="3600.00" perHour="48.80" from="-E19" to="434733273" color="255,255,0" />
+  <flow id="Truck_BT_N1_2" type="Truck" begin="0.00" end="3600.00" perHour="390.41" from="-E19" to="653007172#3.272.179.161" color="255,255,0" />
+  <flow id="Truck_BT_Port_0" type="Truck" begin="0.00" end="3600.00" perHour="21.00" from="-E19" to="133487534" color="0,100,255">
+    <stop busStop="S" duration="1.2" />
+  </flow>
+  <flow id="Truck_Port_N1_0" type="Truck" begin="0.00" end="3600.00" perHour="31.90" from="-133487534" to="955410838#0" color="255,255,0">
+    <stop busStop="N" duration="1.2" />
+  </flow>
+  <flow id="Truck_Port_N1_1" type="Truck" begin="0.00" end="3600.00" perHour="31.90" from="-133487534" to="434733273" color="255,255,0">
+    <stop busStop="N" duration="1.2" />
+  </flow>
+  <flow id="Truck_Port_N1_2" type="Truck" begin="0.00" end="3600.00" perHour="255.19" from="-133487534" to="653007172#3.272.179.161" color="255,255,0">
+    <stop busStop="N" duration="1.2" />
+  </flow>
+  <flow id="Truck_Port_BT_0" type="Truck" begin="0.00" end="3600.00" perHour="21.00" from="-133487534" to="E19" color="255,0,0">
+    <stop busStop="N" duration="1.2" />
+  </flow>
+  <flow id="Truck_Port_South_0" type="Truck" begin="0.00" end="3600.00" perHour="260.00" from="-133487534" to="955410878.656.46" color="0,200,0">
+    <stop busStop="N" duration="1.2" />
+  </flow>
+  <flow id="Car_N1_BT_0" type="Car" begin="0.00" end="3600.00" perHour="22.80" from="802491129#1" to="E19" color="255,0,0" />
+  <flow id="Car_N1_BT_1" type="Car" begin="0.00" end="3600.00" perHour="22.80" from="409623411" to="E19" color="255,0,0" />
+  <flow id="Car_N1_BT_2" type="Car" begin="0.00" end="3600.00" perHour="182.40" from="653007179#0" to="E19" color="255,0,0" />
+  <flow id="Car_N1_Port_0" type="Car" begin="0.00" end="3600.00" perHour="13.70" from="802491129#1" to="133487534" color="0,100,255">
+    <stop busStop="S" duration="1.2" />
+  </flow>
+  <flow id="Car_N1_Port_1" type="Car" begin="0.00" end="3600.00" perHour="13.70" from="409623411" to="133487534" color="0,100,255">
+    <stop busStop="S" duration="1.2" />
+  </flow>
+  <flow id="Car_N1_Port_2" type="Car" begin="0.00" end="3600.00" perHour="109.61" from="653007179#0" to="133487534" color="0,100,255">
+    <stop busStop="S" duration="1.2" />
+  </flow>
+  <flow id="Car_N1_South_0" type="Car" begin="0.00" end="3600.00" perHour="6.50" from="802491129#1" to="955410878.656.46" color="0,200,0" />
+  <flow id="Car_N1_South_1" type="Car" begin="0.00" end="3600.00" perHour="6.50" from="409623411" to="955410878.656.46" color="0,200,0" />
+  <flow id="Car_N1_South_2" type="Car" begin="0.00" end="3600.00" perHour="52.01" from="653007179#0" to="955410878.656.46" color="0,200,0" />
+  <flow id="Car_BT_N1_0" type="Car" begin="0.00" end="3600.00" perHour="22.80" from="-E19" to="955410838#0" color="255,255,0" />
+  <flow id="Car_BT_N1_1" type="Car" begin="0.00" end="3600.00" perHour="22.80" from="-E19" to="434733273" color="255,255,0" />
+  <flow id="Car_BT_N1_2" type="Car" begin="0.00" end="3600.00" perHour="182.40" from="-E19" to="653007172#3.272.179.161" color="255,255,0" />
+  <flow id="Car_Port_N1_0" type="Car" begin="0.00" end="3600.00" perHour="13.70" from="-133487534" to="955410838#0" color="255,255,0">
+    <stop busStop="N" duration="1.2" />
+  </flow>
+  <flow id="Car_Port_N1_1" type="Car" begin="0.00" end="3600.00" perHour="13.70" from="-133487534" to="434733273" color="255,255,0">
+    <stop busStop="N" duration="1.2" />
+  </flow>
+  <flow id="Car_Port_N1_2" type="Car" begin="0.00" end="3600.00" perHour="109.61" from="-133487534" to="653007172#3.272.179.161" color="255,255,0">
+    <stop busStop="N" duration="1.2" />
+  </flow>
+  <flow id="Car_Port_South_0" type="Car" begin="0.00" end="3600.00" perHour="65.00" from="-133487534" to="955410878.656.46" color="0,200,0">
+    <stop busStop="N" duration="1.2" />
+  </flow>
+  <flow id="Bus_N1_BT_0" type="Bus" begin="0.00" end="3600.00" perHour="27.10" from="802491129#1" to="E19" color="255,0,0" />
+  <flow id="Bus_N1_BT_1" type="Bus" begin="0.00" end="3600.00" perHour="27.10" from="409623411" to="E19" color="255,0,0" />
+  <flow id="Bus_N1_BT_2" type="Bus" begin="0.00" end="3600.00" perHour="216.79" from="653007179#0" to="E19" color="255,0,0" />
+  <flow id="Bus_N1_Port_0" type="Bus" begin="0.00" end="3600.00" perHour="16.20" from="802491129#1" to="133487534" color="0,100,255">
+    <stop busStop="S" duration="1.2" />
+  </flow>
+  <flow id="Bus_N1_Port_1" type="Bus" begin="0.00" end="3600.00" perHour="16.20" from="409623411" to="133487534" color="0,100,255">
+    <stop busStop="S" duration="1.2" />
+  </flow>
+  <flow id="Bus_N1_Port_2" type="Bus" begin="0.00" end="3600.00" perHour="129.60" from="653007179#0" to="133487534" color="0,100,255">
+    <stop busStop="S" duration="1.2" />
+  </flow>
+  <flow id="Bus_N1_South_0" type="Bus" begin="0.00" end="3600.00" perHour="6.50" from="802491129#1" to="955410878.656.46" color="0,200,0" />
+  <flow id="Bus_N1_South_1" type="Bus" begin="0.00" end="3600.00" perHour="6.50" from="409623411" to="955410878.656.46" color="0,200,0" />
+  <flow id="Bus_N1_South_2" type="Bus" begin="0.00" end="3600.00" perHour="52.01" from="653007179#0" to="955410878.656.46" color="0,200,0" />
+  <flow id="Bus_BT_N1_0" type="Bus" begin="0.00" end="3600.00" perHour="27.10" from="-E19" to="955410838#0" color="255,255,0" />
+  <flow id="Bus_BT_N1_1" type="Bus" begin="0.00" end="3600.00" perHour="27.10" from="-E19" to="434733273" color="255,255,0" />
+  <flow id="Bus_BT_N1_2" type="Bus" begin="0.00" end="3600.00" perHour="216.79" from="-E19" to="653007172#3.272.179.161" color="255,255,0" />
+  <flow id="Bus_Port_N1_0" type="Bus" begin="0.00" end="3600.00" perHour="16.20" from="-133487534" to="955410838#0" color="255,255,0">
+    <stop busStop="N" duration="1.2" />
+  </flow>
+  <flow id="Bus_Port_N1_1" type="Bus" begin="0.00" end="3600.00" perHour="16.20" from="-133487534" to="434733273" color="255,255,0">
+    <stop busStop="N" duration="1.2" />
+  </flow>
+  <flow id="Bus_Port_N1_2" type="Bus" begin="0.00" end="3600.00" perHour="129.60" from="-133487534" to="653007172#3.272.179.161" color="255,255,0">
+    <stop busStop="N" duration="1.2" />
+  </flow>
+  <flow id="Bus_Port_South_0" type="Bus" begin="0.00" end="3600.00" perHour="65.00" from="-133487534" to="955410878.656.46" color="0,200,0">
+    <stop busStop="N" duration="1.2" />
+  </flow>
+  <flow id="SMV_N1_BT_0" type="SMV" begin="0.00" end="3600.00" perHour="6.80" from="802491129#1" to="E19" color="255,0,0" />
+  <flow id="SMV_N1_BT_1" type="SMV" begin="0.00" end="3600.00" perHour="6.80" from="409623411" to="E19" color="255,0,0" />
+  <flow id="SMV_N1_BT_2" type="SMV" begin="0.00" end="3600.00" perHour="27.205" from="E33.8" to="E19" color="255,0,0" />
+  <flow id="SMV_N1_BT_2b" type="SMV" begin="0.00" end="3600.00" perHour="27.205" from="-E32.8" to="E19" color="255,0,0" />
+  <flow id="SMV_N1_Port_0" type="SMV" begin="0.00" end="3600.00" perHour="4.10" from="802491129#1" to="133487534" color="0,100,255" />
+  <flow id="SMV_N1_Port_1" type="SMV" begin="0.00" end="3600.00" perHour="4.10" from="409623411" to="133487534" color="0,100,255" />
+  <flow id="SMV_N1_Port_2" type="SMV" begin="0.00" end="3600.00" perHour="16.405" from="E33.8" to="133487534" color="0,100,255" />
+  <flow id="SMV_N1_Port_2b" type="SMV" begin="0.00" end="3600.00" perHour="16.405" from="-E32.8" to="133487534" color="0,100,255" />
+  <flow id="SMV_N1_South_0" type="SMV" begin="0.00" end="3600.00" perHour="13.50" from="802491129#1" to="955410878.656.46" color="0,200,0" />
+  <flow id="SMV_N1_South_1" type="SMV" begin="0.00" end="3600.00" perHour="13.50" from="409623411" to="955410878.656.46" color="0,200,0" />
+  <flow id="SMV_N1_South_2" type="SMV" begin="0.00" end="3600.00" perHour="54.00" from="E33.8" to="955410878.656.46" color="0,200,0" />
+  <flow id="SMV_N1_South_2b" type="SMV" begin="0.00" end="3600.00" perHour="54.00" from="-E32.8" to="955410878.656.46" color="0,200,0" />
+  <flow id="SMV_BT_N1_0" type="SMV" begin="0.00" end="3600.00" perHour="6.800" from="-E19" to="955410838#0" color="255,255,0" />
+  <flow id="SMV_BT_N1_1" type="SMV" begin="0.00" end="3600.00" perHour="6.800" from="-E19" to="434733273" color="255,255,0" />
+  <flow id="SMV_Port_N1_0" type="SMV" begin="0.00" end="3600.00" perHour="4.100" from="-133487534" to="955410838#0" color="255,255,0" />
+  <flow id="SMV_Port_N1_1" type="SMV" begin="0.00" end="3600.00" perHour="4.100" from="-133487534" to="434733273" color="255,255,0" />
+  <flow id="SMV_Port_South_0" type="SMV" begin="0.00" end="3600.00" perHour="278.00" from="-133487534" to="955410878.656.46" color="0,200,0" />
+<flow id="SMV_BT_N1_2" type="SMV" begin="0.00" end="3600.00" perHour="27.200" from="-E19" to="-E33.8" color="255,255,0" /><flow id="SMV_BT_N1_2b" type="SMV" begin="0.00" end="3600.00" perHour="27.200" from="-E19" to="E32.8" color="255,255,0" /><flow id="SMV_Port_N1_2" type="SMV" begin="0.00" end="3600.00" perHour="16.400" from="-133487534" to="-E33.8" color="255,255,0" /><flow id="SMV_Port_N1_2b" type="SMV" begin="0.00" end="3600.00" perHour="16.400" from="-133487534" to="E32.8" color="255,255,0" /></routes>

@@ -1,0 +1,6 @@
+<viewsettings>
+    <scheme name="standard">
+        <vehicles vehicleQuality="2" vehicle_exaggeration="1.00"/>
+    </scheme>
+    <delay value="50"/>
+</viewsettings>

@@ -1,0 +1,7 @@
+<additional>
+  <!-- 统一收费广场:ES/EN 高架对向同断面(EN 正对 ES),S/N 地面在正下方 -->
+  <busStop id="S"  name="toll_plaza" lane="1074327503_0"  startPos="1095.30" endPos="1097.30"/>
+  <busStop id="N"  name="toll_plaza" lane="-1074327503_0" startPos="543.82"  endPos="545.82"/>
+  <busStop id="ES" name="toll_plaza" lane="EL_rv_03_02_0" startPos="1098.00" endPos="1100.00"/>
+  <busStop id="EN" name="toll_plaza" lane="EL_fw_02_03_0" startPos="688.00"  endPos="690.00"/>
+</additional>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-06-16T00:09:09.698000+00:00 by Eclipse SUMO netedit 1.26.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="Trailer" vClass="trailer" maxSpeed="13.89" guiShape="truck/trailer" emissionClass="HBEFA3/HDV_D_EU4"/>
+    <vType id="Truck" vClass="truck" maxSpeed="13.89" guiShape="truck" emissionClass="HBEFA3/HDV_D_EU4"/>
+    <vType id="Bus" vClass="bus" maxSpeed="13.89" guiShape="bus" emissionClass="HBEFA3/Bus"/>
+    <vType id="Car" vClass="passenger" maxSpeed="13.89" guiShape="passenger" emissionClass="HBEFA3/PC_G_EU4"/>
+    <vType id="SMV" vClass="motorcycle" maxSpeed="5.56" guiShape="motorcycle" emissionClass="HBEFA3/PC_G_EU4"/>
+    <!-- Routes -->
+    <route id="BTJ_N1_R1" edges="-E19 CR1_cw_top E18 E13 E0.140.10.13.10.38 E1.22 -955410873 -955410873.72 -955410873.72.101 -955410874 -955410870 -955410869 -955410868 -955410866 -434739930#1 -434739930#0 E7 291483974#3 291483976 -E8 E9 434739927 653007172#4" color="yellow"/>
+    <route id="BTJ_N1_R2" edges="-E19 CR1_cw_top E18 E13 E0.140.10.13.10.38 E1.22 -955410873 -955410873.72 -955410873.72.101 -955410874 -955410870 -955410869 -955410868 -955410866 -434739930#1 -434739930#0 E7 291483974#3 291483976 -E8 E9 E11 E10 653007179#2 1076974951 955410852 955410848 955410850 955410851 955410839 955410840 955410841 955410842 955410838#0" color="yellow"/>
+    <route id="BTJ_N1_R3" edges="-E19 CR1_cw_top E18 E13 E0.140.10.13.10.38 E1.22 -955410873 -955410873.72 -955410873.72.101 -955410874 -955410870 -955410869 -955410868 -955410866 -434739930#1 -434739930#0 E7 291483974#3 291483976 -E8 E9 E11 E10 653007179#2 653007179#3 291484182#0 291484182#1 955410806 955410805 434732664 618927404 525724741 434733270 434733273" color="yellow"/>
+    <route id="N1_BTJ_R1" edges="653007179#0 -E100 -E11 -E9 E8 434739929 291483974#1 291483975 434739930#0 434739930#1 955410866 955410868 955410869 955410870 955410874 955410873 955410873.559 955410873.660 E0 E2 E0.40 E0.110 E4 105618090.157.48 E1 E22 CR2_cw_bottom.94.23.after_perp CR2_cw_bottom.94.23.after_perp.40 CR2_cw_bottom CR2_cw_bottom.42 E21 minusE1_to_J18_38m_south CR1_cw_top.94.23 CR1_cw_top.94.23.after_perp E19" color="red"/>
+    <route id="N1_BTJ_R2" edges="802491129#1 955410844 955410843 955410846 955410845 802491128 790289951 955410847 802491131 802491130 967830551 291484182#1 955410806 955410805 434732664 618927404 525724741 434733270 434733273 -1363060242#0 244115103 252168515 409623411 525724742 409623412 955410808 434739928 -E9 E8 434739929 291483974#1 291483975 434739930#0 434739930#1 955410866 955410868 955410869 955410870 955410874 955410873 955410873.559 955410873.660 E0 E2 E0.40 E0.110 E4 105618090.157.48 E1 E22 CR2_cw_bottom.94.23.after_perp CR2_cw_bottom.94.23.after_perp.40 CR2_cw_bottom CR2_cw_bottom.42 E21 minusE1_to_J18_38m_south CR1_cw_top.94.23 CR1_cw_top.94.23.after_perp E19" color="red"/>
+    <route id="N1_BTJ_R3" edges="244115103 252168515 409623411 525724742 409623412 955410808 434739928 -E9 E8 434739929 291483974#1 291483975 434739930#0 434739930#1 955410866 955410868 955410869 955410870 955410874 955410873 955410873.559 955410873.660 E0 E2 E0.40 E0.110 E4 105618090.157.48 E1 E22 CR2_cw_bottom.94.23.after_perp CR2_cw_bottom.94.23.after_perp.40 CR2_cw_bottom CR2_cw_bottom.42 E21 minusE1_to_J18_38m_south CR1_cw_top.94.23 CR1_cw_top.94.23.after_perp E19" color="red"/>
+    <route id="N1_Port_R1" edges="653007179#0 -E100 -E11 -E9 E8 434739929 291483974#1 291483975 434739930#0 434739930#1 955410866 955410868 955410869 955410870 955410874 955410873 955410873.559 955410873.660 E0 E2 E0.40 955410857.13 955410857.46 955410857.91 90433827 90433805 90433805.52 E15 90433805.52.227.28 E12 90433805.52.275.46 90433805.52.275.208 1074327502 1074327503 133487530 133487534" color="0,100,255"/>
+    <route id="N1_Port_R2" edges="802491129#1 955410844 955410843 955410846 955410845 802491128 790289951 955410847 802491131 802491130 967830551 291484182#1 955410806 955410805 434732664 618927404 525724741 434733270 434733273 -1363060242#0 244115103 252168515 409623411 525724742 409623412 955410808 434739928 -E9 E8 434739929 291483974#1 291483975 434739930#0 434739930#1 955410866 955410868 955410869 955410870 955410874 955410873 955410873.559 955410873.660 E0 E2 E0.40 955410857.13 955410857.46 955410857.91 90433827 90433805 90433805.52 E15 90433805.52.227.28 E12 90433805.52.275.46 90433805.52.275.208 1074327502 1074327503 133487530 133487534" color="0,100,255"/>
+    <route id="N1_Port_R3" edges="244115103 252168515 409623411 525724742 409623412 955410808 434739928 -E9 E8 434739929 291483974#1 291483975 434739930#0 434739930#1 955410866 955410868 955410869 955410870 955410874 955410873 955410873.559 955410873.660 E0 E2 E0.40 955410857.13 955410857.46 955410857.91 90433827 90433805 90433805.52 E15 90433805.52.227.28 E12 90433805.52.275.46 90433805.52.275.208 1074327502 1074327503 133487530 133487534" color="0,100,255"/>
+    <route id="N1_South_R1" edges="653007179#0 -E100 -E11 -E9 E8 434739929 291483974#1 291483975 434739930#0 434739930#1 955410866 955410868 955410869 955410870 955410874 955410873 955410873.559 955410873.660 E0 E2 E0.40 E0.110 E4 105618090.157.48 105618090.157.48.76 955410879 955410880 955410878 955410878.442 955410878.571 955410878.656.46" color="green"/>
+    <route id="N1_South_R2" edges="802491129#1 955410844 955410843 955410846 955410845 802491128 790289951 955410847 802491131 802491130 967830551 291484182#1 955410806 955410805 434732664 618927404 525724741 434733270 434733273 -1363060242#0 244115103 252168515 409623411 525724742 409623412 955410808 434739928 -E9 E8 434739929 291483974#1 291483975 434739930#0 434739930#1 955410866 955410868 955410869 955410870 955410874 955410873 955410873.559 955410873.660 E0 E2 E0.40 E0.110 E4 105618090.157.48 105618090.157.48.76 955410879 955410880 955410878 955410878.442 955410878.571 955410878.656.46" color="green"/>
+    <route id="N1_South_R3" edges="244115103 252168515 409623411 525724742 409623412 955410808 434739928 -E9 E8 434739929 291483974#1 291483975 434739930#0 434739930#1 955410866 955410868 955410869 955410870 955410874 955410873 955410873.559 955410873.660 E0 E2 E0.40 E0.110 E4 105618090.157.48 105618090.157.48.76 955410879 955410880 955410878 955410878.442 955410878.571 955410878.656.46" color="green"/>
+    <route id="Port_N1_R1" edges="-133487534 -133487530 -1074327503 -1074327502 -90433805 -90433805.1097 E6 -90433805.1305.23 -90433805.1305.23.42 E14 -90433805.1348.50 -90433805.1581 -90433827 -955410857 -955410857.86 -955410857.86.39 E0.140 E0.140.10.13.10 E0.140.10.13.10.38 E1.22 -955410873 -955410873.72 -955410873.72.101 -955410874 -955410870 -955410869 -955410868 -955410866 -434739930#1 -434739930#0 E7 291483974#3 291483976 -E8 E9 434739927 653007172#4" color="yellow"/>
+    <route id="Port_N1_R2" edges="-133487534 -133487530 -1074327503 -1074327502 -90433805 -90433805.1097 E6 -90433805.1305.23 -90433805.1305.23.42 E14 -90433805.1348.50 -90433805.1581 -90433827 -955410857 -955410857.86 -955410857.86.39 E0.140 E0.140.10.13.10 E0.140.10.13.10.38 E1.22 -955410873 -955410873.72 -955410873.72.101 -955410874 -955410870 -955410869 -955410868 -955410866 -434739930#1 -434739930#0 E7 291483974#3 291483976 -E8 E9 E11 E10 653007179#2 1076974951 955410852 955410848 955410850 955410851 955410839 955410840 955410841 955410842 955410838#0" color="yellow"/>
+    <route id="Port_N1_R3" edges="-133487534 -133487530 -1074327503 -1074327502 -90433805 -90433805.1097 E6 -90433805.1305.23 -90433805.1305.23.42 E14 -90433805.1348.50 -90433805.1581 -90433827 -955410857 -955410857.86 -955410857.86.39 E0.140 E0.140.10.13.10 E0.140.10.13.10.38 E1.22 -955410873 -955410873.72 -955410873.72.101 -955410874 -955410870 -955410869 -955410868 -955410866 -434739930#1 -434739930#0 E7 291483974#3 291483976 -E8 E9 E11 E10 653007179#2 653007179#3 291484182#0 291484182#1 955410806 955410805 434732664 618927404 525724741 434733270 434733273" color="yellow"/>
+    <route id="Port_South" edges="-133487534 -133487530 -1074327503 -1074327502 -90433805 -90433805.1097 E6 -90433805.1305.23 E16 CR2_cw_bottom E17 E17.450 955410878.442 955410878.571 955410878.656.46" color="green"/>
+    <route id="BTJ_Port" edges="-E19 CR1_cw_top CR1_cw_top.42 E20 E1_to_J18_38m_north CR2_cw_bottom.94.23 CR2_cw_bottom.94.23.after_perp E16_north_1 -90433805.1305.23.79 90433805.52.227.28 E12 90433805.52.275.46 90433805.52.275.208 1074327502 1074327503 133487530 133487534" color="0,100,255"/>
+    <route id="Port_BTJ" edges="-133487534 -133487530 -1074327503 -1074327502 -90433805 -90433805.1097 E6 -90433805.1305.23 E16 CR2_cw_bottom CR2_cw_bottom.42 E21 minusE1_to_J18_38m_south CR1_cw_top.94.23 CR1_cw_top.94.23.after_perp E19" color="red"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="Trailer_BTJ_N1_R1" type="Trailer" begin="0.00" end="3600.00" perHour="56" route="BTJ_N1_R1"/>
+    <flow id="Trailer_BTJ_N1_R2" type="Trailer" begin="0.00" end="3600.00" perHour="7" route="BTJ_N1_R2"/>
+    <flow id="Trailer_BTJ_N1_R3" type="Trailer" begin="0.00" end="3600.00" perHour="7" route="BTJ_N1_R3"/>
+    <flow id="Trailer_Port_N1_R1" type="Trailer" begin="0.00" end="3600.00" perHour="36.8" route="Port_N1_R1">
+        <stop busStop="N" duration="1.2"/>
+    </flow>
+    <flow id="Trailer_Port_N1_R2" type="Trailer" begin="0.00" end="3600.00" perHour="4.6" route="Port_N1_R2">
+        <stop busStop="N" duration="1.2"/>
+    </flow>
+    <flow id="Trailer_Port_N1_R3" type="Trailer" begin="0.00" end="3600.00" perHour="4.6" route="Port_N1_R3">
+        <stop busStop="N" duration="1.2"/>
+    </flow>
+    <flow id="Trailer_Port_South" type="Trailer" begin="0.00" end="3600.00" perHour="33" route="Port_South">
+        <stop busStop="N" duration="1.2"/>
+    </flow>
+    <flow id="Trailer_N1_BTJ_R1" type="Trailer" begin="0.00" end="3600.00" perHour="56" route="N1_BTJ_R1"/>
+    <flow id="Trailer_N1_BTJ_R3" type="Trailer" begin="0.00" end="3600.00" perHour="14" route="N1_BTJ_R3"/>
+    <flow id="Trailer_N1_Port_R1" type="Trailer" begin="0.00" end="3600.00" perHour="36.8" route="N1_Port_R1">
+        <stop busStop="S" duration="1.2"/>
+    </flow>
+    <flow id="Trailer_N1_Port_R3" type="Trailer" begin="0.00" end="3600.00" perHour="9.2" route="N1_Port_R3">
+        <stop busStop="S" duration="1.2"/>
+    </flow>
+    <flow id="Trailer_N1_South_R1" type="Trailer" begin="0.00" end="3600.00" perHour="48" route="N1_South_R1"/>
+    <flow id="Trailer_N1_South_R3" type="Trailer" begin="0.00" end="3600.00" perHour="12" route="N1_South_R3"/>
+    <flow id="Trailer_BTJ_Port" type="Trailer" begin="0.00" end="3600.00" perHour="21" route="BTJ_Port">
+        <stop busStop="S" duration="1.2"/>
+    </flow>
+    <flow id="Trailer_Port_BTJ" type="Trailer" begin="0.00" end="3600.00" perHour="21" route="Port_BTJ">
+        <stop busStop="N" duration="1.2"/>
+    </flow>
+    <flow id="Truck_BTJ_N1_R1" type="Truck" begin="0.00" end="3600.00" perHour="390.4" route="BTJ_N1_R1"/>
+    <flow id="Truck_BTJ_N1_R2" type="Truck" begin="0.00" end="3600.00" perHour="48.8" route="BTJ_N1_R2"/>
+    <flow id="Truck_BTJ_N1_R3" type="Truck" begin="0.00" end="3600.00" perHour="48.8" route="BTJ_N1_R3"/>
+    <flow id="Truck_Port_N1_R1" type="Truck" begin="0.00" end="3600.00" perHour="255.2" route="Port_N1_R1">
+        <stop busStop="N" duration="1.2"/>
+    </flow>
+    <flow id="Truck_Port_N1_R2" type="Truck" begin="0.00" end="3600.00" perHour="31.9" route="Port_N1_R2">
+        <stop busStop="N" duration="1.2"/>
+    </flow>
+    <flow id="Truck_Port_N1_R3" type="Truck" begin="0.00" end="3600.00" perHour="31.9" route="Port_N1_R3">
+        <stop busStop="N" duration="1.2"/>
+    </flow>
+    <flow id="Truck_Port_South" type="Truck" begin="0.00" end="3600.00" perHour="260" route="Port_South">
+        <stop busStop="N" duration="1.2"/>
+    </flow>
+    <flow id="Truck_N1_BTJ_R1" type="Truck" begin="0.00" end="3600.00" perHour="390.4" route="N1_BTJ_R1"/>
+    <flow id="Truck_N1_BTJ_R3" type="Truck" begin="0.00" end="3600.00" perHour="97.6" route="N1_BTJ_R3"/>
+    <flow id="Truck_N1_Port_R1" type="Truck" begin="0.00" end="3600.00" perHour="255.2" route="N1_Port_R1">
+        <stop busStop="S" duration="1.2"/>
+    </flow>
+    <flow id="Truck_N1_Port_R3" type="Truck" begin="0.00" end="3600.00" perHour="63.8" route="N1_Port_R3">
+        <stop busStop="S" duration="1.2"/>
+    </flow>
+    <flow id="Truck_N1_South_R1" type="Truck" begin="0.00" end="3600.00" perHour="333.6" route="N1_South_R1"/>
+    <flow id="Truck_N1_South_R3" type="Truck" begin="0.00" end="3600.00" perHour="83.4" route="N1_South_R3"/>
+    <flow id="Truck_BTJ_Port" type="Truck" begin="0.00" end="3600.00" perHour="21" route="BTJ_Port">
+        <stop busStop="S" duration="1.2"/>
+    </flow>
+    <flow id="Truck_Port_BTJ" type="Truck" begin="0.00" end="3600.00" perHour="21" route="Port_BTJ">
+        <stop busStop="N" duration="1.2"/>
+    </flow>
+    <flow id="Car_BTJ_N1_R1" type="Car" begin="0.00" end="3600.00" perHour="182.4" route="BTJ_N1_R1"/>
+    <flow id="Car_BTJ_N1_R2" type="Car" begin="0.00" end="3600.00" perHour="22.8" route="BTJ_N1_R2"/>
+    <flow id="Car_BTJ_N1_R3" type="Car" begin="0.00" end="3600.00" perHour="22.8" route="BTJ_N1_R3"/>
+    <flow id="Car_Port_N1_R1" type="Car" begin="0.00" end="3600.00" perHour="109.6" route="Port_N1_R1">
+        <stop busStop="N" duration="1.2"/>
+    </flow>
+    <flow id="Car_Port_N1_R2" type="Car" begin="0.00" end="3600.00" perHour="13.7" route="Port_N1_R2">
+        <stop busStop="N" duration="1.2"/>
+    </flow>
+    <flow id="Car_Port_N1_R3" type="Car" begin="0.00" end="3600.00" perHour="13.7" route="Port_N1_R3">
+        <stop busStop="N" duration="1.2"/>
+    </flow>
+    <flow id="Car_Port_South" type="Car" begin="0.00" end="3600.00" perHour="65" route="Port_South">
+        <stop busStop="N" duration="1.2"/>
+    </flow>
+    <flow id="Car_N1_BTJ_R1" type="Car" begin="0.00" end="3600.00" perHour="182.4" route="N1_BTJ_R1"/>
+    <flow id="Car_N1_BTJ_R3" type="Car" begin="0.00" end="3600.00" perHour="45.6" route="N1_BTJ_R3"/>
+    <flow id="Car_N1_Port_R1" type="Car" begin="0.00" end="3600.00" perHour="109.6" route="N1_Port_R1">
+        <stop busStop="S" duration="1.2"/>
+    </flow>
+    <flow id="Car_N1_Port_R3" type="Car" begin="0.00" end="3600.00" perHour="27.4" route="N1_Port_R3">
+        <stop busStop="S" duration="1.2"/>
+    </flow>
+    <flow id="Car_N1_South_R1" type="Car" begin="0.00" end="3600.00" perHour="52" route="N1_South_R1"/>
+    <flow id="Car_N1_South_R3" type="Car" begin="0.00" end="3600.00" perHour="13" route="N1_South_R3"/>
+    <flow id="Bus_BTJ_N1_R1" type="Bus" begin="0.00" end="3600.00" perHour="216.8" route="BTJ_N1_R1"/>
+    <flow id="Bus_BTJ_N1_R2" type="Bus" begin="0.00" end="3600.00" perHour="27.1" route="BTJ_N1_R2"/>
+    <flow id="Bus_BTJ_N1_R3" type="Bus" begin="0.00" end="3600.00" perHour="27.1" route="BTJ_N1_R3"/>
+    <flow id="Bus_Port_N1_R1" type="Bus" begin="0.00" end="3600.00" perHour="129.6" route="Port_N1_R1">
+        <stop busStop="N" duration="1.2"/>
+    </flow>
+    <flow id="Bus_Port_N1_R2" type="Bus" begin="0.00" end="3600.00" perHour="16.2" route="Port_N1_R2">
+        <stop busStop="N" duration="1.2"/>
+    </flow>
+    <flow id="Bus_Port_N1_R3" type="Bus" begin="0.00" end="3600.00" perHour="16.2" route="Port_N1_R3">
+        <stop busStop="N" duration="1.2"/>
+    </flow>
+    <flow id="Bus_Port_South" type="Bus" begin="0.00" end="3600.00" perHour="65" route="Port_South">
+        <stop busStop="N" duration="1.2"/>
+    </flow>
+    <flow id="Bus_N1_BTJ_R1" type="Bus" begin="0.00" end="3600.00" perHour="216.8" route="N1_BTJ_R1"/>
+    <flow id="Bus_N1_BTJ_R3" type="Bus" begin="0.00" end="3600.00" perHour="54.2" route="N1_BTJ_R3"/>
+    <flow id="Bus_N1_Port_R1" type="Bus" begin="0.00" end="3600.00" perHour="129.6" route="N1_Port_R1">
+        <stop busStop="S" duration="1.2"/>
+    </flow>
+    <flow id="Bus_N1_Port_R3" type="Bus" begin="0.00" end="3600.00" perHour="32.4" route="N1_Port_R3">
+        <stop busStop="S" duration="1.2"/>
+    </flow>
+    <flow id="Bus_N1_South_R1" type="Bus" begin="0.00" end="3600.00" perHour="52" route="N1_South_R1"/>
+    <flow id="Bus_N1_South_R3" type="Bus" begin="0.00" end="3600.00" perHour="13" route="N1_South_R3"/>
+    <flow id="SMV_BTJ_N1_R1" type="SMV" begin="0.00" end="3600.00" perHour="54.4" route="BTJ_N1_R1"/>
+    <flow id="SMV_BTJ_N1_R2" type="SMV" begin="0.00" end="3600.00" perHour="6.8" route="BTJ_N1_R2"/>
+    <flow id="SMV_BTJ_N1_R3" type="SMV" begin="0.00" end="3600.00" perHour="6.8" route="BTJ_N1_R3"/>
+    <flow id="SMV_Port_N1_R1" type="SMV" begin="0.00" end="3600.00" perHour="32.8" route="Port_N1_R1"/>
+    <flow id="SMV_Port_N1_R2" type="SMV" begin="0.00" end="3600.00" perHour="4.1" route="Port_N1_R2"/>
+    <flow id="SMV_Port_N1_R3" type="SMV" begin="0.00" end="3600.00" perHour="4.1" route="Port_N1_R3"/>
+    <flow id="SMV_Port_South" type="SMV" begin="0.00" end="3600.00" perHour="278" route="Port_South"/>
+    <flow id="SMV_N1_BTJ_R1" type="SMV" begin="0.00" end="3600.00" perHour="54.4" route="N1_BTJ_R1"/>
+    <flow id="SMV_N1_BTJ_R3" type="SMV" begin="0.00" end="3600.00" perHour="13.6" route="N1_BTJ_R3"/>
+    <flow id="SMV_N1_Port_R1" type="SMV" begin="0.00" end="3600.00" perHour="32.8" route="N1_Port_R1"/>
+    <flow id="SMV_N1_Port_R3" type="SMV" begin="0.00" end="3600.00" perHour="8.2" route="N1_Port_R3"/>
+    <flow id="SMV_N1_South_R1" type="SMV" begin="0.00" end="3600.00" perHour="108" route="N1_South_R1"/>
+    <flow id="SMV_N1_South_R3" type="SMV" begin="0.00" end="3600.00" perHour="27" route="N1_South_R3"/>
+</routes>

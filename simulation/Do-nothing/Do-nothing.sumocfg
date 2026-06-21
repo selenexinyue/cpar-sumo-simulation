@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+    <input>
+        <net-file value="Do-nothing.net.xml"/>
+        <route-files value="Do-nothing.rou.xml"/>
+        <additional-files value="TollPlaza.add.xml"/>
+        <junction-taz value="true"/>
+        <gui-settings-file value="Do-nothing.view.xml"/>
+    </input>
+    <processing>
+        <time-to-teleport value="-1"/>
+        <collision.action value="warn"/>
+        <ignore-junction-blocker value="5"/>
+        <ignore-route-errors value="true"/>
+    </processing>
+</configuration>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <input>
+    <net-file value="Option1_new.net.xml"/>
+    <route-files value="Option1.rou.xml"/>
+    <additional-files value="TollPlaza.add.xml"/>
+    <gui-settings-file value="Option1.view.xml"/>
+  </input>
+  <processing>
+    <time-to-teleport value="-1"/>
+    <ignore-junction-blocker value="5"/>
+    <ignore-route-errors value="true"/>
+  </processing>
+</configuration>

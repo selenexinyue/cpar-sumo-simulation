@@ -1,0 +1,139 @@
+<routes>
+  <vType id="Trailer" vClass="trailer" maxSpeed="13.89" guiShape="truck/trailer" emissionClass="HBEFA3/HDV_D_EU4"/>
+  <vType id="Truck" vClass="truck" maxSpeed="13.89" guiShape="truck" emissionClass="HBEFA3/HDV_D_EU4"/>
+  <vType id="Bus" vClass="bus" maxSpeed="13.89" guiShape="bus" emissionClass="HBEFA3/Bus"/>
+  <vType id="Car" vClass="passenger" maxSpeed="13.89" guiShape="passenger" emissionClass="HBEFA3/PC_G_EU4"/>
+  <vType id="SMV" vClass="motorcycle" maxSpeed="5.56" guiShape="motorcycle" emissionClass="HBEFA3/PC_G_EU4"/>
+  <flow id="Trailer_N1_Port_0" type="Trailer" begin="0.00" end="3600.00" perHour="40.01" from="653007179#0" toJunction="6134050216" color="0,100,255">
+    <stop busStop="S" duration="2"/>
+  </flow>
+  <flow id="Trailer_N1_Port_1" type="Trailer" begin="0.00" end="3600.00" perHour="5.00" from="409623411" toJunction="6134050216" color="0,100,255">
+    <stop busStop="S" duration="2"/>
+  </flow>
+  <flow id="Trailer_N1_Port_2" type="Trailer" begin="0.00" end="3600.00" perHour="5.00" from="409623412" toJunction="6134050216" color="0,100,255">
+    <stop busStop="S" duration="2"/>
+  </flow>
+  <flow id="Trailer_N1_South_0" type="Trailer" begin="0.00" end="3600.00" perHour="1.61" from="653007179#0" toJunction="8842687765" color="0,200,0"/>
+  <flow id="Trailer_N1_South_1" type="Trailer" begin="0.00" end="3600.00" perHour="0.20" from="409623411" toJunction="8842687765" color="0,200,0"/>
+  <flow id="Trailer_N1_South_2" type="Trailer" begin="0.00" end="3600.00" perHour="0.20" from="409623412" toJunction="8842687765" color="0,200,0"/>
+  <flow id="Trailer_Port_N1_0" type="Trailer" begin="0.00" end="3600.00" perHour="16.67" fromJunction="6134050216" to="653007172#4" color="255,255,0">
+    <stop busStop="N" duration="2"/>
+  </flow>
+  <flow id="Trailer_Port_N1_1" type="Trailer" begin="0.00" end="3600.00" perHour="16.67" fromJunction="6134050216" to="434733273" color="255,255,0">
+    <stop busStop="N" duration="2"/>
+  </flow>
+  <flow id="Trailer_Port_N1_2" type="Trailer" begin="0.00" end="3600.00" perHour="16.67" fromJunction="6134050216" to="955410819" color="255,255,0">
+    <stop busStop="N" duration="2"/>
+  </flow>
+  <flow id="Trailer_Port_South_0" type="Trailer" begin="0.00" end="3600.00" perHour="1.00" fromJunction="6134050216" toJunction="8842687765" color="0,200,0">
+    <stop busStop="N" duration="2"/>
+  </flow>
+  <flow id="Trailer_South_N1_0" type="Trailer" begin="0.00" end="3600.00" perHour="0.67" fromJunction="8842687765" to="653007172#4" color="255,255,0"/>
+  <flow id="Trailer_South_N1_1" type="Trailer" begin="0.00" end="3600.00" perHour="0.67" fromJunction="8842687765" to="434733273" color="255,255,0"/>
+  <flow id="Trailer_South_N1_2" type="Trailer" begin="0.00" end="3600.00" perHour="0.67" fromJunction="8842687765" to="955410819" color="255,255,0"/>
+  <flow id="Trailer_South_Port_0" type="Trailer" begin="0.00" end="3600.00" perHour="1.00" fromJunction="8842687765" toJunction="6134050216" color="0,100,255">
+    <stop busStop="S" duration="2"/>
+  </flow>
+  <flow id="Truck_N1_Port_0" type="Truck" begin="0.00" end="3600.00" perHour="163.99" from="653007179#0" toJunction="6134050216" color="0,100,255">
+    <stop busStop="S" duration="2"/>
+  </flow>
+  <flow id="Truck_N1_Port_1" type="Truck" begin="0.00" end="3600.00" perHour="20.50" from="409623411" toJunction="6134050216" color="0,100,255">
+    <stop busStop="S" duration="2"/>
+  </flow>
+  <flow id="Truck_N1_Port_2" type="Truck" begin="0.00" end="3600.00" perHour="20.50" from="409623412" toJunction="6134050216" color="0,100,255">
+    <stop busStop="S" duration="2"/>
+  </flow>
+  <flow id="Truck_N1_South_0" type="Truck" begin="0.00" end="3600.00" perHour="50.40" from="653007179#0" toJunction="8842687765" color="0,200,0"/>
+  <flow id="Truck_N1_South_1" type="Truck" begin="0.00" end="3600.00" perHour="6.30" from="409623411" toJunction="8842687765" color="0,200,0"/>
+  <flow id="Truck_N1_South_2" type="Truck" begin="0.00" end="3600.00" perHour="6.30" from="409623412" toJunction="8842687765" color="0,200,0"/>
+  <flow id="Truck_Port_N1_0" type="Truck" begin="0.00" end="3600.00" perHour="68.33" fromJunction="6134050216" to="653007172#4" color="255,255,0">
+    <stop busStop="N" duration="2"/>
+  </flow>
+  <flow id="Truck_Port_N1_1" type="Truck" begin="0.00" end="3600.00" perHour="68.33" fromJunction="6134050216" to="434733273" color="255,255,0">
+    <stop busStop="N" duration="2"/>
+  </flow>
+  <flow id="Truck_Port_N1_2" type="Truck" begin="0.00" end="3600.00" perHour="68.33" fromJunction="6134050216" to="955410819" color="255,255,0">
+    <stop busStop="N" duration="2"/>
+  </flow>
+  <flow id="Truck_Port_South_0" type="Truck" begin="0.00" end="3600.00" perHour="64.00" fromJunction="6134050216" toJunction="8842687765" color="0,200,0">
+    <stop busStop="N" duration="2"/>
+  </flow>
+  <flow id="Truck_South_N1_0" type="Truck" begin="0.00" end="3600.00" perHour="21.00" fromJunction="8842687765" to="653007172#4" color="255,255,0"/>
+  <flow id="Truck_South_N1_1" type="Truck" begin="0.00" end="3600.00" perHour="21.00" fromJunction="8842687765" to="434733273" color="255,255,0"/>
+  <flow id="Truck_South_N1_2" type="Truck" begin="0.00" end="3600.00" perHour="21.00" fromJunction="8842687765" to="955410819" color="255,255,0"/>
+  <flow id="Truck_South_Port_0" type="Truck" begin="0.00" end="3600.00" perHour="64.00" fromJunction="8842687765" toJunction="6134050216" color="0,100,255">
+    <stop busStop="S" duration="2"/>
+  </flow>
+  <flow id="Car_N1_Port_0" type="Car" begin="0.00" end="3600.00" perHour="95.21" from="653007179#0" toJunction="6134050216" color="0,100,255">
+    <stop busStop="S" duration="2"/>
+  </flow>
+  <flow id="Car_N1_Port_1" type="Car" begin="0.00" end="3600.00" perHour="11.90" from="409623411" toJunction="6134050216" color="0,100,255">
+    <stop busStop="S" duration="2"/>
+  </flow>
+  <flow id="Car_N1_Port_2" type="Car" begin="0.00" end="3600.00" perHour="11.90" from="409623412" toJunction="6134050216" color="0,100,255">
+    <stop busStop="S" duration="2"/>
+  </flow>
+  <flow id="Car_N1_South_0" type="Car" begin="0.00" end="3600.00" perHour="24.79" from="653007179#0" toJunction="8842687765" color="0,200,0"/>
+  <flow id="Car_N1_South_1" type="Car" begin="0.00" end="3600.00" perHour="3.10" from="409623411" toJunction="8842687765" color="0,200,0"/>
+  <flow id="Car_N1_South_2" type="Car" begin="0.00" end="3600.00" perHour="3.10" from="409623412" toJunction="8842687765" color="0,200,0"/>
+  <flow id="Car_Port_N1_0" type="Car" begin="0.00" end="3600.00" perHour="39.67" fromJunction="6134050216" to="653007172#4" color="255,255,0">
+    <stop busStop="N" duration="2"/>
+  </flow>
+  <flow id="Car_Port_N1_1" type="Car" begin="0.00" end="3600.00" perHour="39.67" fromJunction="6134050216" to="434733273" color="255,255,0">
+    <stop busStop="N" duration="2"/>
+  </flow>
+  <flow id="Car_Port_N1_2" type="Car" begin="0.00" end="3600.00" perHour="39.67" fromJunction="6134050216" to="955410819" color="255,255,0">
+    <stop busStop="N" duration="2"/>
+  </flow>
+  <flow id="Car_Port_South_0" type="Car" begin="0.00" end="3600.00" perHour="54.00" fromJunction="6134050216" toJunction="8842687765" color="0,200,0">
+    <stop busStop="N" duration="2"/>
+  </flow>
+  <flow id="Car_South_N1_0" type="Car" begin="0.00" end="3600.00" perHour="10.33" fromJunction="8842687765" to="653007172#4" color="255,255,0"/>
+  <flow id="Car_South_N1_1" type="Car" begin="0.00" end="3600.00" perHour="10.33" fromJunction="8842687765" to="434733273" color="255,255,0"/>
+  <flow id="Car_South_N1_2" type="Car" begin="0.00" end="3600.00" perHour="10.33" fromJunction="8842687765" to="955410819" color="255,255,0"/>
+  <flow id="Car_South_Port_0" type="Car" begin="0.00" end="3600.00" perHour="54.00" fromJunction="8842687765" toJunction="6134050216" color="0,100,255">
+    <stop busStop="S" duration="2"/>
+  </flow>
+  <flow id="Bus_N1_Port_0" type="Bus" begin="0.00" end="3600.00" perHour="28.80" from="653007179#0" toJunction="6134050216" color="0,100,255">
+    <stop busStop="S" duration="2"/>
+  </flow>
+  <flow id="Bus_N1_Port_1" type="Bus" begin="0.00" end="3600.00" perHour="3.60" from="409623411" toJunction="6134050216" color="0,100,255">
+    <stop busStop="S" duration="2"/>
+  </flow>
+  <flow id="Bus_N1_Port_2" type="Bus" begin="0.00" end="3600.00" perHour="3.60" from="409623412" toJunction="6134050216" color="0,100,255">
+    <stop busStop="S" duration="2"/>
+  </flow>
+  <flow id="Bus_N1_South_0" type="Bus" begin="0.00" end="3600.00" perHour="16.80" from="653007179#0" toJunction="8842687765" color="0,200,0"/>
+  <flow id="Bus_N1_South_1" type="Bus" begin="0.00" end="3600.00" perHour="2.10" from="409623411" toJunction="8842687765" color="0,200,0"/>
+  <flow id="Bus_N1_South_2" type="Bus" begin="0.00" end="3600.00" perHour="2.10" from="409623412" toJunction="8842687765" color="0,200,0"/>
+  <flow id="Bus_Port_N1_0" type="Bus" begin="0.00" end="3600.00" perHour="12.00" fromJunction="6134050216" to="653007172#4" color="255,255,0">
+    <stop busStop="N" duration="2"/>
+  </flow>
+  <flow id="Bus_Port_N1_1" type="Bus" begin="0.00" end="3600.00" perHour="12.00" fromJunction="6134050216" to="434733273" color="255,255,0">
+    <stop busStop="N" duration="2"/>
+  </flow>
+  <flow id="Bus_Port_N1_2" type="Bus" begin="0.00" end="3600.00" perHour="12.00" fromJunction="6134050216" to="955410819" color="255,255,0">
+    <stop busStop="N" duration="2"/>
+  </flow>
+  <flow id="Bus_Port_South_0" type="Bus" begin="0.00" end="3600.00" perHour="44.00" fromJunction="6134050216" toJunction="8842687765" color="0,200,0">
+    <stop busStop="N" duration="2"/>
+  </flow>
+  <flow id="Bus_South_N1_0" type="Bus" begin="0.00" end="3600.00" perHour="7.00" fromJunction="8842687765" to="653007172#4" color="255,255,0"/>
+  <flow id="Bus_South_N1_1" type="Bus" begin="0.00" end="3600.00" perHour="7.00" fromJunction="8842687765" to="434733273" color="255,255,0"/>
+  <flow id="Bus_South_N1_2" type="Bus" begin="0.00" end="3600.00" perHour="7.00" fromJunction="8842687765" to="955410819" color="255,255,0"/>
+  <flow id="Bus_South_Port_0" type="Bus" begin="0.00" end="3600.00" perHour="44.00" fromJunction="8842687765" toJunction="6134050216" color="0,100,255">
+    <stop busStop="S" duration="2"/>
+  </flow>
+  <flow id="SMV_N1_Port_0" type="SMV" begin="0.00" end="3600.00" perHour="37.61" from="653007179#0" toJunction="6134050216" color="0,100,255"/>
+  <flow id="SMV_N1_Port_1" type="SMV" begin="0.00" end="3600.00" perHour="4.70" from="409623411" toJunction="6134050216" color="0,100,255"/>
+  <flow id="SMV_N1_Port_2" type="SMV" begin="0.00" end="3600.00" perHour="4.70" from="409623412" toJunction="6134050216" color="0,100,255"/>
+  <flow id="SMV_N1_South_0" type="SMV" begin="0.00" end="3600.00" perHour="33.60" from="653007179#0" toJunction="8842687765" color="0,200,0"/>
+  <flow id="SMV_N1_South_1" type="SMV" begin="0.00" end="3600.00" perHour="4.20" from="409623411" toJunction="8842687765" color="0,200,0"/>
+  <flow id="SMV_N1_South_2" type="SMV" begin="0.00" end="3600.00" perHour="4.20" from="409623412" toJunction="8842687765" color="0,200,0"/>
+  <flow id="SMV_Port_N1_0" type="SMV" begin="0.00" end="3600.00" perHour="23.50" fromJunction="6134050216" to="653007172#4" color="255,255,0"/>
+  <flow id="SMV_Port_N1_1" type="SMV" begin="0.00" end="3600.00" perHour="23.50" fromJunction="6134050216" to="434733273" color="255,255,0"/>
+  <flow id="SMV_Port_South_0" type="SMV" begin="0.00" end="3600.00" perHour="266.00" fromJunction="6134050216" toJunction="8842687765" color="0,200,0"/>
+  <flow id="SMV_South_N1_0" type="SMV" begin="0.00" end="3600.00" perHour="21.00" fromJunction="8842687765" to="653007172#4" color="255,255,0"/>
+  <flow id="SMV_South_N1_1" type="SMV" begin="0.00" end="3600.00" perHour="21.00" fromJunction="8842687765" to="434733273" color="255,255,0"/>
+  <flow id="SMV_South_Port_0" type="SMV" begin="0.00" end="3600.00" perHour="266.00" fromJunction="8842687765" toJunction="6134050216" color="0,100,255"/>
+</routes>

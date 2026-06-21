@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+    <input>
+        <net-file value="Option3_new.net.xml"/>
+        <route-files value="Option3.rou.xml"/>
+        <additional-files value="TollPlaza.add.xml"/>
+    </input>
+    <processing>
+        <time-to-teleport value="-1"/>
+        <ignore-junction-blocker value="5"/>
+        <ignore-route-errors value="true"/>
+        <device.ssm.probability value="1" />
+        <device.ssm.file value="Output/SSM.xml" />
+        <device.ssm.measures value="TTC PET DRAC" />
+    </processing>
+    <output>
+        <tripinfo-output value="Output/Tripinfo.xml" />
+        <emission-output value="Output/Emissions.xml.gz" />
+    </output>
+</sumoConfiguration>
