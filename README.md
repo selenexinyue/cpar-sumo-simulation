@@ -38,7 +38,7 @@ cpar-sumo-simulation/
 
 ## Software
 
-- **Eclipse SUMO 1.26**
+- **Eclipse SUMO 1.26** — [download](https://sumo.dlr.de/releases/1.26.0/)
 - **Python 3** (standard library only — no extra packages needed)
 
 ## How to run a scenario
